@@ -12,10 +12,10 @@
 
 Smallest, fully self-contained helpers. Zero external input; ideal first wins for warm-up.
 
-- [ ] 1.1 Plate calculator math — `target weight → plate set` (from a configurable plate inventory).
-- [ ] 1.2 Reverse plate math — `plate stack → total barbell weight`.
-- [ ] 1.3 Weight unit helpers — lb/kg conversions, rounding rules per plate/bar, `per-hand ↔ total` conversion.
-- [ ] 1.4 Bodyweight + added belt/vest weight sum helper (dips/pull-ups).
+- [x] 1.1 Plate calculator math — `target weight → plate set` (from a configurable plate inventory).
+- [x] 1.2 Reverse plate math — `plate stack → total barbell weight`.
+- [x] 1.3 Weight unit helpers — lb/kg conversions, rounding rules per plate/bar, `per-hand ↔ total` conversion.
+- [x] 1.4 Bodyweight + added belt/vest weight sum helper (dips/pull-ups).
 
 ---
 
@@ -23,12 +23,12 @@ Smallest, fully self-contained helpers. Zero external input; ideal first wins fo
 
 Single-purpose, no cross-entity complexity. Pure computation on inputs.
 
-- [ ] 2.1 Set math — volume (sets × reps × weight), 1RM / e1RM estimator (e.g., Epley / Brzycki), intensity calc.
-- [ ] 2.2 Warmup filtering logic — detect warmup sets, exclude from volume/1RM while keeping fatigue data for recovery.
-- [ ] 2.3 Machine ratio — apply custom ratio tag to weight/volume (weighted-machine conversion).
-- [ ] 2.4 Rest timer engine (state machine: idle → running → completed, countdown logic, per-set-type defaults).
-- [ ] 2.5 Exercise swap safety — history-link integrity check (replace machine id without orphaning past logs).
-- [ ] 2.6 Lifetime volume milestone translations — cumulative kg/lb → real-world equivalents (e.g., "X African Elephants") with unit table.
+- [x] 2.1 Set math — volume (sets × reps × weight), 1RM / e1RM estimator (e.g., Epley / Brzycki), intensity calc.
+- [x] 2.2 Warmup filtering logic — detect warmup sets, exclude from volume/1RM while keeping fatigue data for recovery.
+- [x] 2.3 Machine ratio — apply custom ratio tag to weight/volume (weighted-machine conversion).
+- [x] 2.4 Rest timer engine (state machine: idle → running → completed, countdown logic, per-set-type defaults).
+- [x] 2.5 Exercise swap safety — history-link integrity check (replace machine id without orphaning past logs).
+- [x] 2.6 Lifetime volume milestone translations — cumulative kg/lb → real-world equivalents (e.g., "X African Elephants") with unit table.
 
 ---
 
