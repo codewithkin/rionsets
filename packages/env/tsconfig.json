@@ -1,0 +1,3 @@
+{
+  "extends": "@iron-sets/config/tsconfig.base.json"
+}
