@@ -1,0 +1,12 @@
+export { SessionSummaryService } from "./session-summary";
+export type { SessionSummary, ExerciseBreakdown } from "./session-summary";
+export { ExerciseHistoryService } from "./history-context";
+export type { HistoryContext, HistoryEntry } from "./history-context";
+export { nextBeatLastTimeTarget, targetFromHistoryEntry } from "./progression";
+export type { BeatLastTimeTarget, BeatLastTimeInput, ProgressionKind } from "./progression";
+export { detectPrs } from "./pr-detection";
+export type { PrDetection, PrTag } from "./pr-detection";
+export { MuscleRecoveryService, computeRecovery } from "./recovery";
+export type { MuscleRecovery, RecoveryInput } from "./recovery";
+export { FrequencyService, computeCurrentStreak, computeLongestStreak } from "./frequency";
+export type { FrequencyStats, RoutineRecency } from "./frequency";
