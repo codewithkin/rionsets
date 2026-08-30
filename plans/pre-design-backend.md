@@ -62,12 +62,12 @@ Compute meaningful outputs by reading multiple stored entities. Depends on Tier 
 
 These tie several services together and/or produce portable outputs. Highest complexity.
 
-- [ ] 5.1 Heatmap data aggregator â€” 52-week per-day workout count/volume-intensity grid data (pure data; rendering is UI).
-- [ ] 5.2 Monthly performance card data service â€” volume, frequency, top PRs (per month) â†’ summary object (the graphic is UI).
-- [ ] 5.3 CSV export â€” serialization of workouts/sets/exercises/routines across repositories.
-- [ ] 5.4 JSON export â€” lossless full-dataset serialization + import shape.
-- [ ] 5.5 Export orchestration + share/save primitive â€” package exports into files/URIs (wiring UI later).
-- [ ] 5.6 Scheduled-notification planning logic â€” derive reminder times/rest days from routine intervals (scheduling; the notification UI later).
+- [x] 5.1 Heatmap data aggregator â€” 52-week per-day workout count/volume-intensity grid data (pure data; rendering is UI).
+- [x] 5.2 Monthly performance card data service â€” volume, frequency, top PRs (per month) â†’ summary object (the graphic is UI).
+- [x] 5.3 CSV export â€” serialization of workouts/sets/exercises/routines across repositories.
+- [x] 5.4 JSON export â€” lossless full-dataset serialization + import shape.
+- [x] 5.5 Export orchestration + share/save primitive â€” package exports into files/URIs (wiring UI later).
+- [x] 5.6 Scheduled-notification planning logic â€” derive reminder times/rest days from routine intervals (scheduling; the notification UI later).
 
 ---
 
@@ -81,4 +81,5 @@ These tie several services together and/or produce portable outputs. Highest com
 - Monthly performance card graphic.
 - Notification display / permission prompts.
 - Plate calculator UI (the math is 1.1â€“1.2; the interactive two-way UI waits on design).
+
 
